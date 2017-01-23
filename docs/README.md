@@ -22,13 +22,13 @@ In addition, this project will include:
 
 ## Wireframes
 
-This app will consist of a single screen with game board, display for the next pill, game controls, and nav links to my LinkedIn and Github. Game controls will include start, reset on game over, and directional input for pills. If I decide to include music/sound effects there will be a mute button in the top right corner of the game board.
+This app will consist of a single screen with game board, display for the next pill, game controls, and nav links to my LinkedIn and Github. Game controls will include start, reset on game over, and directional input for pills.
 
 ![wireframe](dr_mario.png)
 
 ## Architecture and Technologies
 - The game will use mostly vanilla JavaScript and some jQuery for the overall game and logic.
-- HTML5 Canvas will be used to render everything, and possibly with the help of the Easel JS library.
+- HTML5 Canvas will be used to render everything
 - Webpack to bundle the files together.
 
 There will be five other scripts for this project as well:
