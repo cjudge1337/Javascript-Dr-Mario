@@ -24,7 +24,7 @@ In addition, this project will include:
 
 This app will consist of a single screen with game board, display for the next pill, game controls, and nav links to my LinkedIn and Github. Game controls will include start, reset on game over, and directional input for pills.
 
-![wireframe](drmario.png)
+![wireframe](docs/drmario.png)
 
 ## Architecture and Technologies
 - The game will use mostly vanilla JavaScript and some jQuery for the overall game and logic.
