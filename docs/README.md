@@ -14,7 +14,6 @@ In Dr. Mario, users will be able to:
 - [ ] See game instructions on the same page
 - [ ] Move and rotate descending pills with arrow/WASD keys
 - [ ] See their score
-- [ ] See the next pill in advance
 
 In addition, this project will include:
 
