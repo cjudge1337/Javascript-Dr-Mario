@@ -16,4 +16,4 @@ Right arrow or D key: Move current pill right
 
 ![screenshot](./docs/screenshot.png)
 
-The game was built using vanilla Javascript and HTML5 Canvas.
+The game was built using vanilla Javascript and HTML5 Canvas. A two-dimensional array is used to store the game's state. Each frame, the grid is redrawn based on the colors and properties stored in a Block object assigned to each space of the array.
