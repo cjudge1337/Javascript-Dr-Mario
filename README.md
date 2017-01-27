@@ -2,7 +2,7 @@
 
 [Dr. Mario live][mario]
 
-[mario]:
+[mario]: https://cjudge1337.github.io/Javascript-Dr-Mario/
 
 Dr. Mario is a recreation of the Nintendo puzzle game. The objective is to clear the board of all the viruses using the colored pills.
 Matching 4 or more in a row of the same color clears the row.
