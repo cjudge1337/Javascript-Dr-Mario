@@ -12,9 +12,9 @@ body {
   display: none;
 }
 
-.opaque {
+/*.opaque {
   opacity: 0.3;
-}
+}*/
 
 .title {
   font-size: 46px;
