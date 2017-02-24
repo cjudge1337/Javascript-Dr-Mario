@@ -8,32 +8,36 @@
     <link rel="stylesheet" href="./stylesheet.css">
   </head>
   <body>
-    <h1 class="title">Dr. Mario</h1>
-    <h3 class="sub-title">A recreation of the Nintendo classic with JavaScript</h2>
-    <canvas class ="opaque" width="200" height="400"></canvas>
-      <div class="side">
-        <div class="instructions">
-          <h3>Instructions:</h3>
-          <p>Remove all the viruses!
-            <br>
-            Get 4 in a row of the same color to clear.
-            <br>
-            Press Enter to begin
-          </p>
-          </div>
-        <div class="controls">
-          <h3 class="controls-title">Controls:</h3>
-          <p class="controls-details">Up Arrow or W: Rotate</p>
-          <p class="controls-details">Left Arrow or A: Move left</p>
-          <p class="controls-details">Down Arrow or S: Move down</p>
-          <p class="controls-details">Right Arrow or D: Move right</p>
-        </div>
-      </div>
+    <img src="./docs/mario.png" class="mario">
+    <div class="center">
+      <img src="./docs/logo.png" class="logo">
+      <canvas width="200" height="400"></canvas>
       <div class="personal-links">
         <i class="fa fa-github" aria-hidden="true"></i>
         <a href="https://github.com/cjudge1337">Github</a>
         <i class="fa fa-linkedin-square" aria-hidden="true"></i>
         <a href="https://www.linkedin.com/in/carson-judge">LinkedIn</a>
       </div>
+    </div>
+    <div class="right">
+      <div class="instructions">
+        <h3>Instructions:</h3>
+        <p>Remove all the viruses!
+          <br>
+          Get 4 in a row of the same color to clear.
+          <br>
+          Press <img src="./docs/enter.png" class="enter"> to begin.
+          <br>
+          Press <img src="./docs/space.png" class="space"> to reload.
+        </p>
+        </div>
+      <div class="controls">
+        <h3 class="controls-title">Controls:</h3>
+        <p class="controls-details"><img class="arrow" src="./docs/up.png"/> Rotate</p>
+        <p class="controls-details"><img class="arrow" src="./docs/left.png"/> Move left</p>
+        <p class="controls-details"><img class="arrow" src="./docs/down.png"/> Move down</p>
+        <p class="controls-details"><img class="arrow" src="./docs/right.png"/> Move right</p>
+      </div>
+    </div>
   </body>
 </html>

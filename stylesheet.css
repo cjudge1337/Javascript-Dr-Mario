@@ -1,8 +1,6 @@
 body {
   display: flex;
-  /*justify-content: space-around;*/
-  align-items: center;
-  flex-direction: column;
+  justify-content: space-around;
   background-color: #f5f5f5;
   color: red;
   font-family: 'VT323', monospace;
@@ -12,37 +10,55 @@ body {
   display: none;
 }
 
-/*.opaque {
-  opacity: 0.3;
-}*/
-
-.title {
-  font-size: 46px;
-  margin-bottom: 0;
+.center {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
 }
 
-.sub-title {
-  margin-top: 5px;
+.logo {
+  height: 80px;
+  width: 200px;
+  align-self: center;
+  margin-bottom: 20px;
+}
+
+.mario {
+  height: 400px;
+  width: 230px;
+  margin-top: 75px;
 }
 
 canvas {
-  align-self: center;
+  width: 200px;
+  height: 400px;
   background-color: #444444;
+  margin-left: auto;
 }
 
-.side {
+.right {
   display: flex;
-  position: absolute;
-  right: 13%;
-  top: 27%;
   flex-direction: column;
-  justify-content: space-around;
-  margin-left: 30px;
-  align-self: flex-end;
+  margin-top: 101px;
 }
 
 .controls-title {
   font-size: 20px;
+}
+
+.enter {
+  height: 30px;
+  width: 60px;
+}
+
+.space {
+  height: 30px;
+  width: 100px;
+}
+
+.arrow {
+  height: 30px;
+  width: 30px;
 }
 
 .instructions {
@@ -50,6 +66,8 @@ canvas {
 }
 
 .personal-links {
+  display: flex;
+  justify-content: center;
   margin-top: 10px;
   color: black;
 }
@@ -59,4 +77,12 @@ canvas {
   left: 30px;
   position: absolute;
   border: 1px solid black;
+}
+
+i {
+  margin-right: 2px;
+}
+
+.fa-linkedin-square {
+  margin-left: 10px;
 }
